@@ -1,40 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Task Tool
+
+## Overview
+
+Task Tool is a web application designed to help users manage tasks efficiently. It provides features such as task creation, filtering, and editing, all within a user-friendly interface. The app is built using modern web technologies to ensure performance and scalability.
+
+## Features
+
+- Create, edit, and delete tasks.
+- Filter tasks based on various criteria.
+- Responsive design for seamless usage across devices.
+- Real-time updates using React Query.
+
+## Dependencies
+
+- **Next.js**: A React framework for building server-rendered and static web applications. It simplifies routing and provides excellent performance.
+- **React**: A JavaScript library for building user interfaces. It enables the creation of reusable UI components.
+- **React DOM**: Provides DOM-specific methods for React components.
+- **@tanstack/react-query**: Manages server state and caching, ensuring efficient data fetching and synchronization.
+- **@tanstack/react-query-devtools**: Offers debugging tools for React Query.
+- **clsx**: A utility for constructing className strings conditionally.
+- **lucide-react**: Provides a collection of beautiful and customizable icons.
+- **react-hot-toast**: Displays toast notifications for user feedback.
+- **tailwind-merge**: Merges Tailwind CSS class names intelligently.
+- **zustand**: A lightweight state management library.
+- **TypeScript**: Adds static typing to JavaScript, improving code quality and maintainability.
+- **ESLint**: Ensures code quality and consistency.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+
+## Technologies Used
+
+- **Next.js**: For server-side rendering and static site generation.
+- **React**: For building the user interface.
+- **Tailwind CSS**: For styling the application.
+- **React Query**: For managing server state.
+- **Zustand**: For client-side state management.
+- **TypeScript**: For type safety and better developer experience.
 
 ## Getting Started
 
-First, run the development server:
+To run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
